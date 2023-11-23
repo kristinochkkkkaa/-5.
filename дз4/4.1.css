@@ -1,0 +1,14 @@
+.field {
+    
+    border-right: 10px solid orange;
+    border-radius: 4px;
+  }
+  
+  .field:focus {
+    outline: 2px solid red;
+    outline-offset: 6px;
+  }
+  
+  .field::placeholder {
+    color: orange;
+  }

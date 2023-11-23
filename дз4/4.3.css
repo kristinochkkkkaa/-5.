@@ -1,0 +1,16 @@
+.tabs_item{
+    display: inline-block;
+  }
+  
+  .tabs_item:before {
+    content: "";
+  }
+  
+  .tabs_item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #F498AD;
+  }
+  

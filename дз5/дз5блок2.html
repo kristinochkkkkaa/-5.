@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>блок2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .card {
+            box-sizing: border-box;
+            display: flex;
+            gap: 25px;
+            padding: 45px 35px;
+            border-radius: 5px;
+            border: 1px solid #605e5e;
+            /* Тут странная переменная для  эт цвета( */
+            background: var(--light-text-color, #FFF);
+        }
+
+        .name { 
+            color: var(--primary-color, #23A6F0);
+            /* h3 */
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px; /* 133.333% */
+            letter-spacing: 0.1px;
+        }
+
+        .baze {
+            width: 270px;
+            height: 78px;
+            flex-shrink: 0;
+            color: var(--second-text-color, #737373);
+            /* paragraph */
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 162.5% */
+            letter-spacing: 0.2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="sexy-image" src="https://i.postimg.cc/65BmRG3M/media.jpg" alt="">
+        <div>
+            <h1 class="name">Brand Name</h1>
+            <h2 class="baze">Slate helps you see how many<br>
+                more days you need to work to<br> 
+                reach your financial goal for the<br> 
+                month and year.</h2>
+        </div>
+    </div>
+</body>
+</html>

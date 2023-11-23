@@ -1,0 +1,14 @@
+.field {
+    border: none;
+    border-right: 10px solid green;
+    border-radius: 4px;
+  }
+  
+  .field:focus {
+    outline: 2px solid red;
+    outline-offset: 6px;
+  }
+  
+  .field::placeholder {
+    color: green;
+  }

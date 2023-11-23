@@ -1,0 +1,35 @@
+.blue:first-line {
+    background-color: #98c6f4;
+  }
+
+.white {
+    color: rgb(109, 113, 113);
+}
+  .container1 {
+    display: inline-flex;
+    flex-direction: row;
+  }
+  
+  .pink:first-line {
+    background-color: #f498d2;
+  }
+  .container2 {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .container3 {
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .orange:first-line {
+    background-color: #e0ab50;
+  }
+
+  .container4 {
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .ppp:first-line {
+    background-color: #4ba79f;
+  }
